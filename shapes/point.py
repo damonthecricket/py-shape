@@ -23,16 +23,8 @@ class Point:
 		self._y = y
 
 
-	def set_x(self, x):
-		self._x = x
-
-
 	def x(self):
 		return self._x
-
-
-	def set_y(self, y):
-		self._y = y
 
 
 	def y(self):
