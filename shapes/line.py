@@ -12,9 +12,18 @@ def create(start, end):
 
 class Line:
 
-	"""docstring for Line"""
+	def __init__(self, start, end):
+		self._start = start
+		self._end = end
 
-	def __init__(self, arg):
+
+	def start(self):
+		return self._start
+
+
+	def end(self):
+		return self._end
+
 		
 		
 

@@ -4,7 +4,7 @@
 # Create
 
 def create(x = [], y = []):
-	pass
+	return Shape(x, y)
 
 
 
@@ -21,4 +21,12 @@ class Shape:
 
 	def y(self):
 		return self._y
+
+
+	def __eq__(self, other):
+		return self._x == other.x() and self._y == other.y()
+
+
+	def __str__(self):
+		return "Shape class, x %s, y %s" % (x, y)
 		
