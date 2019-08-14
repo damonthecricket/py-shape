@@ -1,5 +1,7 @@
 
 __all__ = [
 	"shapes",
-	"unit_tests"
+	"unit_tests",
+	"axe",
+	"figure"
 ]
