@@ -3,8 +3,10 @@ import matplotlib.pyplot as plt
 
 try:
 	from . import axe
+	from . import plot
 except Exception as e:
 	import axe
+	import plot
 
 
 

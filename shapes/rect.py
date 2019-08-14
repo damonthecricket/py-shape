@@ -8,20 +8,13 @@ from . import shape
 
 def create(start, width, height):
 	return Rect(start, width, height)
-
-
-class ClassName(object):
-	"""docstring for ClassName"""
-	def __init__(self, arg):
-		super(ClassName, self).__init__()
-		self.arg = arg
 		
 
 class Rect(shape.Shape):
 
 	def __init__(self, start, width, height):
-		shape.Shape.__init__(self, [start.x(), start.x() + width, start.x() + width, start.x()],
-							[start.y(), start.y(), start.y() + height, start.y() + height])
+		shape.Shape.__init__(self, [start.x(), start.x() + width, start.x() + width, start.x(), start.x()],
+							[start.y(), start.y(), start.y() + height, start.y() + height, start.y()])
 
 		self._start = start
 		self._width = width
