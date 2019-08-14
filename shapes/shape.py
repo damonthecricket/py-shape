@@ -28,5 +28,5 @@ class Shape:
 
 
 	def __str__(self):
-		return "Shape class, x %s, y %s" % (x, y)
+		return "Shape class, x = %s, y = %s" % (self.x(), self.y())
 		
